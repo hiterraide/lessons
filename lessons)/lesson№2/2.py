@@ -1,0 +1,22 @@
+name = []
+name.append("Kirill")
+name.append("Oleg")
+name.append("Sveta")
+name.append("Diana")
+name.append("Flyx")
+name.append("Gleb")
+name.append("Hox")
+name.append("Xod")
+name.append("Umbrella")
+name.append("Temperature")
+print(name)
+name.insert(2, "clown")
+print(name)
+del name[4]
+print(name)
+del_item = name.pop(2)
+print(name)
+print(del_item)
+name.remove("Gleb")
+print(name)
+      
